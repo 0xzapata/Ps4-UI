@@ -20,11 +20,15 @@ You can experience Ps4-UI in two ways:
 
 1. **Clone the Repository**:
 
+```shell
+git clone https://github.com/d4v1-sudo/Ps4-UI.git
+```
+
 Then, open the `index.html` file in your browser to start exploring the interface.
 
 2. **Download the ZIP File**:
 
-- Go to the main repository page at [https://github.com/your-username/Ps4-UI](https://github.com/your-username/Ps4-UI).
+- Go to the main repository page at [https://github.com/d4v1-sudo/Ps4-UI.git](https://github.com/d4v1-sudo/Ps4-UI.git).
 - Click the "Code" button and select "Download ZIP."
 - Extract the ZIP file on your computer and open the `index.html` file in your browser.
 
