@@ -28,7 +28,7 @@ Then, open the `index.html` file in your browser to start exploring the interfac
 
 2. **Download the ZIP File**:
 
-- Go to the main repository page at [https://github.com/d4v1-sudo/Ps4-UI.git](https://github.com/d4v1-sudo/Ps4-UI.git).
+- Go to the main repository page at [https://github.com/d4v1-sudo/Ps4-UI](https://github.com/d4v1-sudo/Ps4-UI).
 - Click the "Code" button and select "Download ZIP."
 - Extract the ZIP file on your computer and open the `index.html` file in your browser.
 
