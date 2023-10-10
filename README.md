@@ -36,6 +36,10 @@ Then, open the `index.html` file in your browser to start exploring the interfac
 
 Contributions are welcome! Feel free to open issues or send pull requests to enhance this project.
 
+## Thanks to
+
+Arturo Cabrera: @Pixmy
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use it for personal or commercial purposes.
