@@ -11,7 +11,6 @@
 - **Familiar Interface**: Navigate through an interface closely resembling the PlayStation 4 experience.
 - **Simple Navigation**: Explore menus, icons, and PS4 features intuitively.
 - **Customization**: Experience the feeling of customization with profile and settings options.
-- **Remote Control**: Use controls to navigate the interface and access different sections.
 - **Gamepad Support**: Ps4-UI also supports gamepads for an authentic experience.
 
 ## How to Use
