@@ -292,75 +292,76 @@ document.addEventListener("keydown", function (event) {
     }
 });
 
-// Timer para desbloquear botões
+// Timer to unlock buttons
 setTimeout(function () {
-    tempoAcabou = true;
+    timeIsUp = true;
 }, 15000);
 
-let contador = 15;
+let counter = 15;
 let timer = setInterval(function () {
-    console.log(contador + " segundos restantes...");
-    contador--;
-    if (contador < 0) {
+    console.log(counter + " seconds remaining...");
+    counter--;
+    if (counter < 0) {
         clearInterval(timer);
-        console.log("O tempo acabou")
+        console.log("Time's up");
     }
 }, 1000);
 
-    // Timer para desbloquear botões
-    setTimeout(function () {
-      tempoAcabou = true;
-      document.getElementById("mensagem").style.display = "block";
-    }, 15000);
-    
-//Notification
-    function showNotification() {
-        const title = "Hello World!";
-        const message = "Ganhou a primeira conquista.";
-        const icon = "./assets/img/icon.png";
+// Timer to unlock buttons
+setTimeout(function () {
+    timeIsUp = true;
+    document.getElementById("message").style.display = "block";
+}, 15000);
 
-        const notification = document.createElement("div");
-        notification.classList.add("notification-container");
+// Notification
+function showNotification() {
+    const title = "Hello World!";
+    const message = "Achieved the first trophy.";
+    const icon = "./assets/img/icon.png";
 
-        const iconContainer = document.createElement("div");
-        iconContainer.classList.add("icon-container");
-        const iconImg = document.createElement("img");
-        iconImg.setAttribute("src", icon);
-        iconContainer.appendChild(iconImg);
-        notification.appendChild(iconContainer);
+    const notification = document.createElement("div");
+    notification.classList.add("notification-container");
 
-        const contentContainer = document.createElement("div");
-        contentContainer.classList.add("content-container");
-        const titleElem = document.createElement("h3");
-        titleElem.classList.add("notification-title");
-        titleElem.textContent = title;
-        const messageElem = document.createElement("p");
-        messageElem.classList.add("notification-message");
-        messageElem.textContent = message;
-        contentContainer.appendChild(titleElem);
-        contentContainer.appendChild(messageElem);
-        notification.appendChild(contentContainer);
+    const iconContainer = document.createElement("div");
+    iconContainer.classList.add("icon-container");
+    const iconImg = document.createElement("img");
+    iconImg.setAttribute("src", icon);
+    iconContainer.appendChild(iconImg);
+    notification.appendChild(iconContainer);
 
-        document.body.appendChild(notification);
-        play_d();
+    const contentContainer = document.createElement("div");
+    contentContainer.classList.add("content-container");
+    const titleElem = document.createElement("h3");
+    titleElem.classList.add("notification-title");
+    titleElem.textContent = title;
+    const messageElem = document.createElement("p");
+    messageElem.classList.add("notification-message");
+    messageElem.textContent = message;
+    contentContainer.appendChild(titleElem);
+    contentContainer.appendChild(messageElem);
+    notification.appendChild(contentContainer);
 
+    document.body.appendChild(notification);
+    playSound();
+
+    setTimeout(() => {
+        notification.classList.add("slide-in");
         setTimeout(() => {
-            notification.classList.add("slide-in");
+            notification.classList.remove("slide-in");
+            notification.classList.add("slide-out");
             setTimeout(() => {
-                notification.classList.remove("slide-in");
-                notification.classList.add("slide-out");
-                setTimeout(() => {
-                    notification.remove();
-                }, 8000);
-            }, 3000);
-        }, 100);
-    }
-    
+                notification.remove();
+            }, 8000);
+        }, 3000);
+    }, 100);
+}
+
 const plusButton = document.getElementById('plus');
 
 plusButton.addEventListener('click', function() {
-  showNotification();
+    showNotification();
 });
+
 
 
 		// Assign handleMouse to mouse movement events
@@ -415,7 +416,7 @@ function timeout() {
 		}
 	);
 
-// Melhoria para o focus nos jogos
+// Improvement for focus in games
 document.getElementById("games").addEventListener("focusin", function (event) {
   const target = event.target;
 
@@ -423,7 +424,7 @@ document.getElementById("games").addEventListener("focusin", function (event) {
     const gameText = target.nextElementSibling;
     gameText.style.display = "block";
     const gameTitle = target.nextElementSibling.nextElementSibling;
-    gameTitle.style.display = "block";
+    gameTitle.style display = "block";
     target.style.opacity = "1";
   }
 });
@@ -440,18 +441,18 @@ document.getElementById("games").addEventListener("focusout", function (event) {
   }
 });
 
-// Melhoria na exibição das imagens dos jogos
+// Improvement in the display of game images
 $(".squareGame").hover(
   function () {
     $(this).find('.gameText').show();
     $(this).find('.gameTitle').show();
     $(this).find('#store').show();
-    $(this).find('.imgGame').css("opacity", "1"); // Exibe a imagem imediatamente
+    $(this).find('.imgGame').css("opacity", "1"); // Display the image immediately
   },
   function () {
     $(this).find('.gameText').hide();
     $(this).find('.gameTitle').hide();
     $(this).find('#store').hide();
-    $(this).find('.imgGame').css("opacity", "1"); // Define a opacidade original da imagem
+    $(this).find('.imgGame').css("opacity", "1"); // Set the original image opacity
   }
 );
