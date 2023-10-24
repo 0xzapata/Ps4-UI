@@ -44,3 +44,9 @@ Arturo Cabrera: @Pixmy
 This project is licensed under the [MIT License](LICENSE). Feel free to use it for personal or commercial purposes.
 
 Enjoy exploring the PlayStation 4 interface recreated in Ps4-UI! If you have any questions or feedback, don't hesitate to get in touch.
+
+## Note
+
+This repo doesn't have a commercial purpose; it's an HTML project made to simulate the PS4 UI.
+
+All rights reserved to PlayStation®.
