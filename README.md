@@ -4,14 +4,14 @@
 
 ## Description
 
-**Ps4-UI** is a project that recreates the user interface (UI) of the PlayStation 4 using HTML, JavaScript, and CSS. With it, you can explore a faithful recreation of the iconic PS4 interface right in your web browser.
+**Ps4-UI** is a project that recreates the user interface (UI) of the PlayStation 4 using HTML, JavaScript, and pure CSS. With it, you can explore a faithful recreation of the iconic PS4 interface right in your web browser.
 
 ## Features
 
-- **Familiar Interface**: Navigate through an interface closely resembling the PlayStation 4 experience.
-- **Simple Navigation**: Explore menus, icons, and PS4 features intuitively.
-- **Customization**: Experience the feeling of customization with profile and settings options.
-- **Gamepad Support**: Ps4-UI also supports gamepads for an authentic experience.
+- 🖥 **Familiar Interface**: Navigate through an interface closely resembling the PlayStation 4 experience.
+- 🌐 **Simple Navigation**: Explore menus, icons, and PS4 features intuitively.
+- ✏️ **Customization**: Experience the feeling of customization with profile and settings options.
+- 🎮 **Gamepad Support**: Ps4-UI also supports gamepads for an authentic experience.
 
 ## How to Use
 
