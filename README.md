@@ -37,7 +37,8 @@ Contributions are welcome! Feel free to open issues or send pull requests to enh
 
 ## Thanks to
 
-Arturo Cabrera: - [@Pixmy] (https://www.github.com/Pixmy)
+Arturo Cabrera: [@Pixmy](https://www.github.com/Pixmy) 
+[Original project here](https://codepen.io/Pixmy/pen/qaYQoV)
 
 ## License
 
