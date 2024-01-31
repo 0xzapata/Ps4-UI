@@ -1,4 +1,4 @@
-# Playstation 4 User Interface - made with HTML, Javascript and pure CSS
+# 🎮🕹️👾 - Playstation 4 User Interface - made with HTML, Javascript and pure CSS
 
 ![Screenshot](screenshot.png)
 
