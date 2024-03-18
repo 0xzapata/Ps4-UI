@@ -52,3 +52,5 @@ Enjoy exploring the PlayStation 4 interface recreated in Ps4-UI! If you have any
 This repo doesn't have a commercial purpose; it's an HTML project made to simulate the PS4 UI.
 
 All rights reserved to PlayStation®.
+
+<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2FPs4-UI"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2FPs4-UI&label=Thanks%20for%20dropping%20in&countColor=%23d9e3f0" /></a>
